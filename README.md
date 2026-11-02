@@ -8,14 +8,14 @@
 
 ### ▶ 作品を見る
 
-**https://york-14.github.io/Design-portfolio/**
+**https://symbealab.github.io/Design-portfolio/**
 
 ブラウザで開くと、その場で全フレームを生成しながら再生します（音声つき、PC・スマートフォン対応）。
 
-- 動画ファイル（MP4）: https://york-14.github.io/Design-portfolio/reel/order-x-chaos-reel.mp4
+- 動画ファイル（MP4）: https://symbealab.github.io/Design-portfolio/reel/order-x-chaos-reel.mp4
 - リポジトリ内: [`reel/order-x-chaos-reel.mp4`](reel/order-x-chaos-reel.mp4)
 
-[![ORDER × CHAOS](reel/poster.jpg)](https://york-14.github.io/Design-portfolio/)
+[![ORDER × CHAOS](reel/poster.jpg)](https://symbealab.github.io/Design-portfolio/)
 
 | 仕様 | |
 |---|---|
@@ -32,10 +32,10 @@
 | 秒 | 章 | 内容 | 元になった作品 |
 |---|---|---|---|
 | 0–2 | ONE SEED | 光の点が鼓動に合わせて灯る。シード値 `0x9E3779B9`（⌊2³² / φ⌋） | — |
-| 2–4.5 | GOLDEN ANGLE | 黄金角 137.507764° による葉序が育ち、ロジスティック写像のゆらぎを受けて一直線に収束する | [Golden-angle-new](https://github.com/York-14/Golden-angle-new) / [golden-angle-drift](https://github.com/York-14/golden-angle-drift) |
-| 4.5–6.5 | LOGISTIC MAP | 前の章の直線が、そのまま分岐図の r 軸になる。周期倍分岐をたどり、ファイゲンバウム点 r∞ = 3.5699… へズーム | golden-angle-drift / [Generative-Flower](https://github.com/York-14/Generative-Flower) |
-| 6.5–9 | DOUBLE PENDULUM | 初期角度が 10⁻⁸ rad だけ違う 2 本の振り子を RK4 で積分。重なった白い軌跡が 8.6 秒でピンクと青に裂ける | [Double-pendulum](https://github.com/York-14/Double-pendulum) |
-| 9–11.5 | SYMMETRIC ICONS | 対称カオス写像を D₅ → D₂₃ → D₉ と探索し、主題「ORDER × CHAOS」を提示。花びらが散る | [Generative-flower-Order-Chaos](https://github.com/York-14/Generative-flower-Order-Chaos) / Generative-Flower |
+| 2–4.5 | GOLDEN ANGLE | 黄金角 137.507764° による葉序が育ち、ロジスティック写像のゆらぎを受けて一直線に収束する | [Golden-angle-new](https://github.com/Symbealab/Golden-angle-new) / [golden-angle-drift](https://github.com/Symbealab/golden-angle-drift) |
+| 4.5–6.5 | LOGISTIC MAP | 前の章の直線が、そのまま分岐図の r 軸になる。周期倍分岐をたどり、ファイゲンバウム点 r∞ = 3.5699… へズーム | golden-angle-drift / [Generative-Flower](https://github.com/Symbealab/Generative-Flower) |
+| 6.5–9 | DOUBLE PENDULUM | 初期角度が 10⁻⁸ rad だけ違う 2 本の振り子を RK4 で積分。重なった白い軌跡が 8.6 秒でピンクと青に裂ける | [Double-pendulum](https://github.com/Symbealab/Double-pendulum) |
+| 9–11.5 | SYMMETRIC ICONS | 対称カオス写像を D₅ → D₂₃ → D₉ と探索し、主題「ORDER × CHAOS」を提示。花びらが散る | [Generative-flower-Order-Chaos](https://github.com/Symbealab/Generative-flower-Order-Chaos) / Generative-Flower |
 | 11.5–13 | GENERATIVE VASE | 散った 6000 枚の花びらが、花瓶の曲面式 r(θ, z) の上に集まる | Bamboo |
 | 13–15 | END | 377 粒（フィボナッチ数）の葉序マークと名前 | — |
 
@@ -74,9 +74,9 @@ node reel/tools/render.mjs --stills 2.6,10.6    # 指定した秒の静止画だ
 
 上の URL で表示されないときは、Pages を有効にしてください。GitHub アプリにはこの設定がないため、ブラウザで行います。
 
-1. ブラウザで https://github.com/York-14/Design-portfolio/settings/pages を開く
+1. ブラウザで https://github.com/Symbealab/Design-portfolio/settings/pages を開く
 2. **Source** を「Deploy from a branch」にする
 3. **Branch** を `main`、フォルダを `/ (root)` にして **Save**
-4. 1〜2 分後に https://york-14.github.io/Design-portfolio/ で表示されます
+4. 1〜2 分後に https://symbealab.github.io/Design-portfolio/ で表示されます
 
 ローカルで見るときは、`reel/index.html` をブラウザで開くだけで動きます。
