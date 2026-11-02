@@ -80,3 +80,19 @@ node reel/tools/render.mjs --stills 2.6,10.6    # 指定した秒の静止画だ
 4. 1〜2 分後に https://symbealab.github.io/Design-portfolio/ で表示されます
 
 ローカルで見るときは、`reel/index.html` をブラウザで開くだけで動きます。
+
+## ライセンス / License
+
+### コード / Code
+このリポジトリのコードは [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) で公開しています。
+個人の学習・研究・趣味などの**非商用の利用・改変・再配布は自由**です。**商用利用はできません。**
+
+The code in this repository is licensed under the PolyForm Noncommercial License 1.0.0.
+Noncommercial use, modification and redistribution are permitted. **Commercial use is not permitted.**
+
+### Symbea の作品 / Symbea artworks
+Symbea として公開・販売している作品（壁紙パック、SNS の投稿、グッズのデザインなど）の著作権は Symbealab に帰属します（All rights reserved）。
+
+### 商用利用のご相談 / Commercial licensing
+商用でのご利用を希望される場合は、Instagram [@symbealab](https://www.instagram.com/symbealab/) の DM でご相談ください。
+For commercial licensing, please contact [@symbealab](https://www.instagram.com/symbealab/) on Instagram.
